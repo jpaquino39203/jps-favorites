@@ -1,0 +1,312 @@
+body {
+
+    background: #FFDAB9;
+    margin: 0;
+
+}
+
+.link-title {
+
+    text-decoration: none;
+    font-size: 24px;
+    color: #444444;
+
+}
+
+.main p {
+
+    line-height: 1.5;
+
+}
+
+.container-index {
+
+    width: 800px;
+    /*height: 740px;*/
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 13px 5px;
+
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-short-stories {
+
+    width: 800px;
+    /*height: 1845px;*/
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 13px 5px;
+
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-novels {
+
+    width: 800px;
+    /*height: 1900px;*/
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 13px 5px;
+
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.container-recs {
+
+    width: 800px;
+    /*height: 670px;*/
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 13px 5px;
+
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.header {
+
+    padding: 40px 0 30px 40px;
+    /*border: 2px solid #000000;*/
+}
+
+.menu {
+
+    background: #3b7687;
+    padding: 6px 0 6px 40px;
+
+}
+
+.menu a {
+
+    color: #c5d6db;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Garamond";
+
+}
+
+.menu a:hover {
+
+    color: #000000;
+}
+
+aside {
+
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px;
+
+}
+
+h1 {
+
+    margin: 0px;
+    color: #869843;
+    font-size: 24px;
+    font-family: "Garamond";
+
+}
+
+#index-header {
+
+    margin-top: 15px;
+    color: #869843;
+    font-size: 24px;
+    font-family: "Garamond";
+
+}
+
+h2 {
+
+    color: #3b7687;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+
+}
+
+.main {
+
+    margin: 0 0 0 90px;
+    padding: 35px 90px 45px 0;
+    color: #444444;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "Georgia";
+    text-emphasis: justify;
+
+}
+
+.main a:hover {
+
+    color: #444444;
+}
+
+#home-image img {
+
+    width: 100%;
+
+}
+
+.ratings-table {
+
+    font-weight: bold;
+
+}
+
+footer {
+
+    padding: 6px 0px 6px 0;
+    background: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 11px;
+    text-decoration: left;
+    margin-top: auto;
+
+}
+
+footer a {
+
+    text-decoration: none;
+    color: #262626;
+
+}
+
+
+
+.separator {
+
+    color: #FFFFFF;
+    font-size: 11px;
+
+}
+
+.checked {
+    color: #FFA500;
+}
+
+/** Favorite Books Styles **/
+
+#item1 #item-image img {
+
+    padding: 0 0 0 0;
+
+}
+
+#item1 {
+
+    margin-bottom: 50px;
+
+}
+
+#item2 #item-image img {
+
+    padding: 0 0 0 0;
+
+}
+
+#item2 {
+
+    margin-bottom: 50px;
+
+}
+
+#item3 #item-image img {
+
+    padding: 0 0 0 0;
+
+}
+
+#item3 {
+
+    margin-bottom: 50px;
+
+}
+
+#item4 #item-image img {
+
+    padding: 0 0 0 0;
+
+}
+
+#item4 {
+
+    margin-bottom: 50px;
+
+}
+
+#item5 #item-image img {
+
+    padding: 0 0 0 0;
+
+}
+
+#item5 {
+
+    margin-bottom: 50px;
+
+}
+
+.picture-info {
+
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 0;
+
+}
+
+/* Contact Page */
+
+#contact #form {
+
+    width: 500px;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    /*box-shadow: 0px 9px 13px 5px;*/
+    border-radius: 5px;
+
+}
+
+#contact .page-heading {
+
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+#contact #form input {
+
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+
+}
+
+#contact #form #message {
+
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+#contact #form #submit {
+
+    height: 30px;
+    background: #ADD8E6;
+
+}
